@@ -1,0 +1,8 @@
+<!ELEMENT branches (branch+)>
+<!ELEMENT branch (name, address, phone, hours, mapLink)>
+<!ATTLIST branch id ID #REQUIRED>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+<!ELEMENT hours (#PCDATA)>
+<!ELEMENT mapLink (#PCDATA)>
